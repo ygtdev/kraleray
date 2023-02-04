@@ -29,11 +29,13 @@
     </div>
 </template>
 
-<script setup lang="js">
-    import { ref } from 'vue'
+<script lang="js">
     import { Howl, Howler } from 'howler'
 
-    const Team = ref([
+    export default {
+        data() {
+            return {
+                Team: [
                     {
                         name: 'Kenar Can Özeray',
                         role: 'Kurucu',
@@ -115,11 +117,15 @@
                         sound: 'alicetinkaya.mp3',
                         image: 'alicetinkaya.png'
                     }
-                ])
-
-    const PlaySound = (sound) => {
-        new Howl({
-            src: [`/sounds/${sound}`]
-        }).volume(0.5).play();
+                ]
+            }
+        },
+        methods: {
+            PlaySound(sound) {
+                new Howl({
+                    src: [`/sounds/${sound}`]
+                }).volume(0.5).play();
+            }
+        }
     }
 </script>
