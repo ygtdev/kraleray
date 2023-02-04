@@ -36,7 +36,7 @@
     </div>
 </template>
 
-<script lang="ts">
+<script lang="js">
     import { Howl, Howler } from 'howler'
 
     export default {
