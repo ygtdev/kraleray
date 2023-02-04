@@ -117,7 +117,7 @@
                     }
                 ])
 
-    const PlaySound = (sound: string) => {
+    const PlaySound = (sound) => {
         new Howl({
             src: [`/sounds/${sound}`]
         }).volume(0.5).play();
