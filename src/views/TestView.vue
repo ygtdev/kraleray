@@ -185,6 +185,19 @@
                                 point: 0
                             }
                         ]
+                    },
+                    {
+                        title: '100K Dolar İçin Vurdurur Musun?',
+                        options: [
+                            {
+                                label: 'Evet',
+                                point: 30
+                            },
+                            {
+                                label: 'Hayır',
+                                point: 0
+                            }
+                        ]
                     }
                 ],
                 Results: [
