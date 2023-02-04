@@ -1,6 +1,9 @@
 <template>
     <div class="mt-32 flex flex-col items-center justify-center">
-        <h1 class="text-5xl font-bold">Sen Hangi Siyah Poposun?</h1>
+        <div class"flex flex-col items-center">
+            <h1 class="text-5xl font-bold">Sen Hangi Siyah Poposun?</h1>
+            <p>Bütün sorular mizah amaçlıdır.</p>
+        </div>
         <Transition>
             <div v-if="TestStarted == true" class="mt-12 w-2/5 flex flex-col items-center p-5 rounded-xl bg-gray-300">
                 <h1 class="text-3xl font-semibold">{{ Questions[CurrentQuestion].title }} {{ CurrentQuestion+1 }}/{{ Questions.length }}</h1>
@@ -149,7 +152,7 @@
                         ]
                     },
                     {
-                        title: 'Kadın Ve Erkek Eşit midir?',
+                        title: 'Sizce Kadın Ve Erkek Eşit midir?
                         options: [
                             {
                                 label: 'Evet',
