@@ -4,7 +4,7 @@
         <p>(Varsa bakmasın kusura unuttuğum.)</p>
         <div class="mt-12 w-1/2 grid grid-cols-4 gap-3">
             <div v-for="(item, index) in Team" :key="index">
-                <div v-if="item.sound" @click="PlaySound(item.sound)" v-tippy="{
+                <div v-if="item.sound" v-tippy="{
                     content: 'Bana Bas'
                 }" class="p-8 flex flex-col items-center gap-4 rounded-lg bg-gray-200 transition cursor-pointer hover:scale-105">
                     <div :style="{
@@ -116,10 +116,4 @@
                         image: 'alicetinkaya.png'
                     }
                 ])
-
-    const PlaySound = (sound: string) => {
-        new Howl({
-            src: [`/sounds/${sound}`]
-        }).volume(0.5).play();
-    }
 </script>
