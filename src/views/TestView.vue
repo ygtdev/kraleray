@@ -1,6 +1,6 @@
 <template>
     <div class="mt-32 flex flex-col items-center justify-center">
-        <div class"flex flex-col items-center">
+        <div class="flex flex-col items-center">
             <h1 class="text-5xl font-bold">Sen Hangi Siyah Poposun?</h1>
             <p>Bütün sorular mizah amaçlıdır.</p>
         </div>
