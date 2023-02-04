@@ -121,7 +121,7 @@
                         options: [
                             {
                                 label: 'Evet',
-                                fake: true
+                                point: 30,
                             },
                             {
                                 label: 'Hayır',
