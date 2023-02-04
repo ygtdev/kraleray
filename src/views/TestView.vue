@@ -152,7 +152,7 @@
                         ]
                     },
                     {
-                        title: 'Sizce Kadın Ve Erkek Eşit midir?
+                        title: 'Sizce Kadın Ve Erkek Eşit midir?',
                         options: [
                             {
                                 label: 'Evet',
