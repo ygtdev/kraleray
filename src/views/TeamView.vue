@@ -29,7 +29,7 @@
     </div>
 </template>
 
-<script setup lang="js">
+<script setup lang="ts">
     import { ref } from 'vue'
     import { Howl, Howler } from 'howler'
 
@@ -117,7 +117,7 @@
                     }
                 ])
 
-    const PlaySound = (sound) => {
+    const PlaySound = (sound: string) => {
         new Howl({
             src: [`/sounds/${sound}`]
         }).volume(0.5).play();
