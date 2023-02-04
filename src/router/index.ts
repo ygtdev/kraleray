@@ -26,9 +26,9 @@ const router = createRouter({
     ]
 })
 
-router.beforeEach((to, from, next) => {
-    if (to.name) document.title = `Kral Eray | ${to.name}`
-    next()
-})
+// router.beforeEach((to, from, next) => {
+//     if (to.name) document.title = `Kral Eray | ${to.name}`
+//     next()
+// })
 
 export default router
