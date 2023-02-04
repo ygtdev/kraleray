@@ -29,7 +29,7 @@
     </div>
 </template>
 
-<script setup lang="ts">
+<script setup lang="js">
     import { ref } from 'vue'
     import { Howl, Howler } from 'howler'
 
