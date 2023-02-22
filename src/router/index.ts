@@ -9,6 +9,11 @@ const router = createRouter({
             component: () => import('@/views/HomeView.vue')
         },
         {
+            path: '/news',
+            name: 'Haberler',
+            component: () => import('@/views/NewsView.vue')
+        },
+        {
             path: '/timer',
             name: 'Zamanlayıcılar',
             component: () => import('@/views/TimerView.vue')
